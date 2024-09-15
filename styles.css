@@ -1,0 +1,165 @@
+:root {
+    --logo-red: #C04649;
+    --logo-yellow: #D2B676;
+    --logo-black: #1E1E1C;
+    --lightblack: #242323;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--lightblack);
+    color: var(--logo-yellow);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: var(--logo-black);
+    color: var(--logo-yellow);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;
+    margin: 0;
+    background-color: var(--lightblack);
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--logo-yellow);
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: var(--logo-red);
+}
+
+.project, article {
+    background-color: var(--logo-black);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.project h3, article h3 {
+    color: var(--logo-red);
+}
+
+button {
+    padding: 10px;
+    background-color: var(--logo-red);
+    color: var(--logo-yellow);
+    border: none;
+    border-radius: 5px;
+}
+
+/* Ajustar la alineación de los puntos de la lista (ul, ol) */
+ul {
+    list-style-position: inside; /* Hace que los puntos de la lista estén dentro del área de texto */
+    padding-left: 20px; /* Añade un pequeño margen a la izquierda para mayor separación */
+    margin: 20px 0; /* Margen superior e inferior para separación con otros elementos */
+}
+
+li {
+    margin-bottom: 10px; /* Añadir espacio entre los elementos de la lista */
+    color: var(--logo-yellow); /* Asegurar que el color del texto sea consistente */
+}
+
+/* Para listas ordenadas, si también tienes (opcional) */
+ol {
+    list-style-position: inside;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--logo-yellow);
+    text-decoration: none;
+}
+
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--logo-yellow);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+/* Secciones */
+section {
+    background-color: var(--logo-red);
+    padding: 20px;
+    margin: 20px auto; /* Margen externo */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 800px; /* Ancho máximo */
+}
+
+section h1,
+section h2,
+section h3 {
+    color: var(--logo-black);
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Botón */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--logo-black);
+    color: var(--logo-yellow);
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--logo-yellow);
+    color: var(--logo-red);
+}
+
+li:hover{
+    background-color: var(--logo-red);
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--logo-black);
+    color: var(--logo-yellow);
+    margin-top: 20px;
+}
+
